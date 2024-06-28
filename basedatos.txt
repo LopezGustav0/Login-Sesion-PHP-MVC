@@ -1,0 +1,10 @@
+create database BDFinal;
+use BDFinal;
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    usuario VARCHAR(255) UNIQUE NOT NULL,
+    nombre varchar(255) not null,
+    apellidos varchar(255) not null,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    clave VARCHAR(255) NOT NULL
+);
